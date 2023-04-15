@@ -20,23 +20,12 @@ app.use(bodyParser.json());
 
 //Cors
 
-//Añadir prefijos a rutas
+//Cargar rutas
 
-//metodos api rest 
+var product_routes = require('./routes/product');
 
-app.get('/probando' , function(req , res){
+app.use( '/', product_routes);
 
-
-    return res.status(200).send({
-
-        probando: 'esto es una prueba del metodo get'
-    })
-
-
-
-
-   
-})
 
 // Exportar modulos
 
