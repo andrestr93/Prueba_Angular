@@ -12,7 +12,6 @@ var ProductoShema = Schema ({
     title: String,
     description: String,
     price : Number,
-    image: String
 });
 
 

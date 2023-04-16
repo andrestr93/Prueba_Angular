@@ -5,11 +5,6 @@ var validator = require("validator");
 var Product = require("../models/products");
 
 var controller = {
-  test: (req, res) => {
-    return res.status(200).send({
-      curso: "hola como estas",
-    });
-  },
 
   // METODO GUARDAR PRODUCTO
   save: (req, res) => {
@@ -53,6 +48,7 @@ var controller = {
     }
   },
 
+  /*
   getDeleteProduct: (req, res) => {
     var productid = req.params.id;
     
@@ -73,6 +69,8 @@ var controller = {
     }
     
   },
+
+  */
 
   /*
 app.post("/delete" , async ( req , res ) =>{

@@ -13,13 +13,12 @@ var router = express.Router();
 
 // creamos la ruta asignandole un nombre y la funcion del controlador de producto
 
-router.get('/test' ,productController.test);
 
 router.post('/save' ,productController.save);
 
 router.get('/all' ,productController.getProducts);
 
-router.delete('/delete/:id' , productController.getDeleteProduct);
+//router.delete('/delete/:id' , productController.getDeleteProduct);
 
 module.exports = router;
 
