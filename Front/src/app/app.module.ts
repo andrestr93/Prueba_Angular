@@ -4,7 +4,6 @@ import {routing , appRoutingProviders} from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
-import { SliderComponent } from './components/slider/slider.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -12,7 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HomeComponent,
     FormularioComponent,
-    SliderComponent
+
   ],
   imports: [
     BrowserModule,
